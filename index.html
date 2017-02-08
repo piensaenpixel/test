@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/favicons/favicon.ico?1467884079" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <title>Routes and Nodes</title>
+    <meta name="description" content="Map created by stuartlynn in CARTO">
+    <meta name="keywords" content="Routes, and, Nodes, datasets, maps, data visualization, spatial data, geospatial, CARTO">
+    <meta name="author" content="stuartlynn">
+    <meta charset='utf-8' />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <meta property="og:title" content="Routes and Nodes" />
+    <meta property="og:site_name" content="CARTO" />
+    <meta property="og:description" content="Map created by stuartlynn in CARTO" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://team.carto.com/u/stuartlynn/builder/db837bd6-e26f-11e6-9d97-0ecd1babdde5/embed" />
+    <meta property="og:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/stuartlynn/api/v1/map/static/named/tpl_db837bd6_e26f_11e6_9d97_0ecd1babdde5/1200/630.png">
+      <meta property="fb:app_id" content="204330262947622" />
+      <meta property="fb:admins" content="500593636634213" />
+    <meta property="article:publisher" content="https://www.facebook.com/cartodb" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cartodb">
+    <meta name="twitter:title" content="Routes and Nodes">
+    <meta name="twitter:description" content="Map created by stuartlynn in CARTO">
+    <meta name="twitter:image" content="https://cartocdn-ashbu.global.ssl.fastly.net/stuartlynn/api/v1/map/static/named/tpl_db837bd6_e26f_11e6_9d97_0ecd1babdde5/560/300.png">
+
+    
+  <link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/stylesheets/public_editor3.css" media="all" rel="stylesheet" type="text/css" />
+<link href="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/stylesheets/deep_insights.css" media="all" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    html, body {
+      position:relative;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .leaflet-container {
+      touch-action: none !important;
+      -ms-touch-action: none !important;
+    }
+  </style>
+
+
+    <!--[if lt IE 9]>
+      <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/javascripts/modernizr.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body class="">
+    
+  <div id="dashboard"></div>
+
+    
+  
+  <script>
+    var vizJSON = JSON.parse('{\"bounds\":[[-85.0511,-179.0],[85.0511,179.0]],\"center\":\"[0.0,0.0]\",\"datasource\":{\"user_name\":\"stuartlynn\",\"maps_api_template\":\"https://{user}.carto.com:443\",\"stat_tag\":\"db837bd6-e26f-11e6-9d97-0ecd1babdde5\",\"template_name\":\"tpl_db837bd6_e26f_11e6_9d97_0ecd1babdde5\"},\"description\":null,\"options\":{\"legends\":true,\"scrollwheel\":false,\"layer_selector\":false,\"dashboard_menu\":true},\"id\":\"db837bd6-e26f-11e6-9d97-0ecd1babdde5\",\"layers\":[{\"id\":\"1a94f8e0-af20-4cc4-b45b-0c3ac614faa9\",\"type\":\"tiled\",\"options\":{\"default\":false,\"url\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png\",\"subdomains\":\"abcd\",\"minZoom\":\"0\",\"maxZoom\":\"18\",\"name\":\"Dark matter (lite)\",\"className\":\"dark_matter_lite_rainbow\",\"attribution\":\"&copy; <a href=\\\"http://www.openstreetmap.org/copyright\\\">OpenStreetMap<\/a> contributors\",\"labels\":null,\"urlTemplate\":\"https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}.png\",\"type\":\"Tiled\",\"tms\":false,\"category\":\"CARTO\",\"selected\":true,\"val\":\"dark_matter_lite_rainbow\",\"label\":\"Dark matter (lite)\",\"highlighted\":true}},{\"id\":\"6e2cb0e9-7b9e-48b3-bc9c-e97205c64ddd\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"n1_node_insight_1\",\"attribution\":\"\",\"source\":\"b0\"},\"legends\":[]},{\"id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"type\":\"CartoDB\",\"visible\":true,\"options\":{\"layer_name\":\"odm_with_routes\",\"attribution\":\"\",\"source\":\"c0\"},\"legends\":[]}],\"likes\":0,\"map_provider\":\"leaflet\",\"overlays\":[{\"type\":\"share\",\"order\":1,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"\"},{\"type\":\"search\",\"order\":2,\"options\":{\"display\":true,\"x\":60,\"y\":20},\"template\":\"\"},{\"type\":\"zoom\",\"order\":3,\"options\":{\"display\":true,\"x\":20,\"y\":20},\"template\":\"<a href=\\\"#zoom_in\\\" class=\\\"zoom_in\\\">+<\/a> <a href=\\\"#zoom_out\\\" class=\\\"zoom_out\\\">-<\/a>\"},{\"type\":\"loader\",\"order\":4,\"options\":{\"display\":true,\"x\":20,\"y\":150},\"template\":\"<div class=\\\"loader\\\" original-title=\\\"\\\"><\/div>\"},{\"type\":\"logo\",\"order\":5,\"options\":{\"display\":true,\"x\":10,\"y\":40},\"template\":\"\"}],\"title\":\"Routes and Nodes\",\"updated_at\":\"2017-02-08T04:32:54+00:00\",\"user\":{\"fullname\":\"stuartlynn\",\"avatar_url\":\"//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/unversioned/images/avatars/avatar_star_green.png\",\"profile_url\":\"https://team.carto.com/u/stuartlynn\"},\"version\":\"3.0.0\",\"widgets\":[{\"id\":\"dc2d23ac-6d48-4a69-be20-13f39818c460\",\"type\":\"category\",\"title\":\"Road Type\",\"order\":12,\"layer_id\":\"6e2cb0e9-7b9e-48b3-bc9c-e97205c64ddd\",\"options\":{\"column\":\"road_type\",\"aggregation_column\":\"road_type\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"b0\"}},{\"id\":\"e8d3f179-53ff-49c2-a85d-89b9d77fb8c2\",\"type\":\"category\",\"title\":\"Road Name\",\"order\":13,\"layer_id\":\"6e2cb0e9-7b9e-48b3-bc9c-e97205c64ddd\",\"options\":{\"column\":\"road_name\",\"aggregation_column\":\"road_name\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"b0\"}},{\"id\":\"9f13e890-4f9e-4acd-b092-f6de8a87895d\",\"type\":\"histogram\",\"title\":\"Serious Risk Score\",\"order\":14,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"rri_serious\",\"bins\":10,\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"0a59da95-b4be-4f45-8087-a034a6d8bf54\",\"type\":\"histogram\",\"title\":\"Fatal Risk Score\",\"order\":15,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"rri_fatal\",\"bins\":10,\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"a3101ca4-c4aa-4aec-a27e-02a730f31b96\",\"type\":\"category\",\"title\":\"Origin MSOA\",\"order\":16,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"origin_area\",\"aggregation_column\":\"origin_area\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"0bfcee25-3ff6-40e3-af73-f06dd27e0f21\",\"type\":\"category\",\"title\":\"Destination MSOA\",\"order\":17,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"destination_area\",\"aggregation_column\":\"destination_area\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"0498e850-b750-49bc-b408-4d56e63244ca\",\"type\":\"histogram\",\"title\":\"% Journeys on route\",\"order\":18,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"journeys_ratio_global\",\"bins\":10,\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"9754ef77-7d87-4d4f-a437-27e523fe5149\",\"type\":\"category\",\"title\":\"Home Geodemographic Major\",\"order\":20,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"start_class_minor\",\"aggregation_column\":\"start_class_minor\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}},{\"id\":\"028bafe3-a028-40a5-9ee5-6ab2fc159ac2\",\"type\":\"category\",\"title\":\"Home Geodemographic Minor\",\"order\":21,\"layer_id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"column\":\"start_class_major\",\"aggregation_column\":\"start_class_major\",\"aggregation\":\"count\",\"sync_on_data_change\":true,\"sync_on_bbox_change\":true},\"style\":{\"widget_style\":{\"definition\":{\"color\":{\"fixed\":\"#9DE0AD\",\"opacity\":1}}},\"auto_style\":{\"custom\":false,\"allowed\":true}},\"source\":{\"id\":\"c0\"}}],\"zoom\":1,\"analyses\":[{\"id\":\"b0\",\"type\":\"source\",\"options\":{\"table_name\":\"stuartlynn.n1_node_insight_1\",\"simple_geom\":\"point\"}},{\"id\":\"c0\",\"type\":\"source\",\"options\":{\"table_name\":\"stuartlynn.odm_with_routes\",\"simple_geom\":\"line\"}}],\"vector\":false}');
+    var layersData = JSON.parse('[{\"id\":\"1a94f8e0-af20-4cc4-b45b-0c3ac614faa9\",\"options\":{}},{\"id\":\"6e2cb0e9-7b9e-48b3-bc9c-e97205c64ddd\",\"options\":{\"style_version\":\"2.1.1\",\"tile_style\":\"#layer {\\n  marker-width: ramp([rri_serious_median],range(3.5,9),quantiles(5));\\n  \\n  marker-fill: ramp([rri_serious_median], (#00e6a4,#bac166,#f79420,#f3635e,#e90088), quantiles(5));\\n\\n  marker-fill-opacity: 0.8;\\n  marker-allow-overlap: true;\\n  marker-line-width: 0;\\n  marker-line-color: #333;\\n  marker-line-opacity: 0.6;\\n}\"}},{\"id\":\"7ec689a7-0c5e-492b-88d3-9594b5c853d7\",\"options\":{\"style_version\":\"2.1.1\",\"tile_style\":\"#layer {\\n\\n  line-color: #fff;\\n\\n  [rri_serious > 0]{\\n    line-width: 0.1;\\n    line-opacity: 0.1;\\n  }\\n\\n  [rri_serious > 0.182]{\\n    line-width: 0.3;\\n    line-opacity: 0.2;\\n  }\\n\\n  [rri_serious > 0.272]{\\n    line-width: 0.6;\\n    line-opacity: 0.4;\\n  }\\n\\n  [rri_serious > 1.27]{\\n    line-width: 1;\\n    line-opacity: 0.9;\\n  }\\n\\n  [rri_serious > 3.76]{\\n    line-width: 1.5;\\n  }\\n}\"}}]');
+    var stateJSON = JSON.parse('{\"map\":{\"ne\":[52.331982407533786,-3.4991455078125],\"sw\":[54.619797717849536,-0.7855224609375]},\"widgets\":{\"9f13e890-4f9e-4acd-b092-f6de8a87895d\":{\"normalized\":true},\"0a59da95-b4be-4f45-8087-a034a6d8bf54\":{\"normalized\":true},\"0498e850-b750-49bc-b408-4d56e63244ca\":{\"normalized\":true}}}');
+    var authTokens = JSON.parse('null');
+  </script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/javascripts/vendor_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/javascripts/common_editor3.js" type="text/javascript"></script>
+  <script src="//cartodb-libs.global.ssl.fastly.net/cartodbui/assets/4.5.135/javascripts/public_editor3.js" type="text/javascript"></script>
+
+  <script>
+  window._trackJs = {
+    enabled: true,
+    application: 'j2fvjk4hsmckojrqpxjp'
+  };
+</script>
+<script type="text/javascript" src="//d2zah9y47r7bi2.cloudfront.net/releases/current/tracker.js" data-token="cf7a7cd8411140689ea94e92d9fba842"></script>
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20934186-10']);
+  _gaq.push(['_setDomainName', 'carto.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>
+
+
+  </body>
+</html>
